@@ -9,7 +9,7 @@ In this project there are given a web-based application that reads RSS feeds. In
 * You can check the live version of project here https://ivipinmaurya.github.io/udacity-feed-reader-testing/
 
 ## Technologies Used
-HTML5
-CSS3
-Jasmine
-jQuery
+1. HTML5
+2. CSS3
+3. Jasmine
+4. jQuery
