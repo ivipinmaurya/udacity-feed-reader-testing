@@ -6,11 +6,10 @@ In this project there are given a web-based application that reads RSS feeds. In
 * Clone the repository.
 * Open index.html in your browser.
 * Test results will be display at the bottom.
-
 * You can check the live version of project here https://ivipinmaurya.github.io/udacity-feed-reader-testing/
 
 ## Technologies Used
-    HTML5
-    CSS3
-    Jasmine
-    jQuery
+HTML5
+CSS3
+Jasmine
+jQuery
