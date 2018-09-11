@@ -63,9 +63,9 @@ $(function() {
           * visibility when the menu icon is clicked.
           */
           it('changes visibility', function() {
-              expect(document.body.classList).toContain('menu-hidden');
+              expect($('body').hasClass('menu-hidden').toBe(true);
               $('.menu-icon-link').click();
-              expect(document.body.classList).not.toContain('menu-hidden');
+              expect($('body').hasClass('menu-hidden').not.toBe(true);
               $('.menu-icon-link').click();
           });
         });
@@ -81,7 +81,7 @@ $(function() {
          });
 
          it('feed container has entries', function() {
-             var entriescount = document.getElementsByClassName('entry').length;
+             var entriescount = $('.feed .entry').length;
              expect(entriescount).not.toBe(0);
          });
        });
