@@ -66,6 +66,7 @@ $(function() {
               $('.menu-icon-link').click();
               expect($('body').hasClass('menu-hidden').not.toBe(true);
               $('.menu-icon-link').click();
+              expect($('body').hasClass('menu-hidden').toBe(true);
           });
         });
 
