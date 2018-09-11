@@ -56,14 +56,13 @@ $(function() {
          * hidden by default.
          */
          it('is hidden by default', function() {
-             expect(document.body.classList).toContain('menu-hidden');
+             expect($('body').hasClass('menu-hidden').toBe(true);
          });
 
          /* test to ensures the menu changes
           * visibility when the menu icon is clicked.
           */
           it('changes visibility', function() {
-              expect($('body').hasClass('menu-hidden').toBe(true);
               $('.menu-icon-link').click();
               expect($('body').hasClass('menu-hidden').not.toBe(true);
               $('.menu-icon-link').click();
